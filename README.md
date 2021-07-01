@@ -1,6 +1,11 @@
-## A Practice Repo for Different NodeJS Design Patterns
+## A Practice Repo for Different NodeJS Design Patterns by Sachin_Bhatnagar
 
-### Follow the below steps to test out each folder
+### Follow the below steps to test the singleton pattern
 
-- `cd <folder_name>` e.g `cd Sachin_Bhatnagar/singleton/Singleton_Class`
-- Run the commane `node App.js`
+- `cd /singleton/Singleton_Class`
+- `node App.js`
+
+### Follow the below steps to test the factory pattern
+
+- `cd factory-pattern`
+- `node app.js`
