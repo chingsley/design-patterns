@@ -9,3 +9,7 @@
 
 - `cd factory-pattern`
 - `node app.js`
+
+### To test the builder-pattern:
+
+- `node builder-pattern/Pizza/App.js`
