@@ -1,0 +1,17 @@
+{
+  "name": "1-proxy-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cryptr": "^6.0.2",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "nodemon:reactive": "nodemon ./Reactive/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
