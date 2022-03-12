@@ -30,3 +30,8 @@
 - Open two terminal windows
 - In one terminal run `npm run dev` to start the parcel-bundler in watch mode so that any changes to app will cause parcel to recombile the app.js file in a folder called _dist_
 - In a another terminal run `node dist/app.js`
+
+
+### Credit
+- OReilly
+- Sachin Bhatnagar
