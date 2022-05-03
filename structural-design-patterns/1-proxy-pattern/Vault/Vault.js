@@ -20,8 +20,8 @@ const lock = (obj, password) => {
 const unlock = (obj, password) => {
   const cryptr = new Cryptr(password);
   let newObj = {};
-  for (const i of Object.keys(obj)) {
-    newObj[i] = cryptr.decrypt(obj[i]);
+  for (const key of Object.keys(obj)) {
+    newObj[key] = cryptr.decrypt(obj[key]);
   }
 
   return new Proxy(newObj, {
