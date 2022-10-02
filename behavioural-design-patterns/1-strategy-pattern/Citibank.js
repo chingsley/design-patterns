@@ -1,16 +1,16 @@
-const Bank = require('.//Bank');
+const Bank = require('./Bank');
 
-class Chasebank extends Bank {
+class Citibank extends Bank {
   processPayment() {
     console.log(
-      `Your payment of ${this.amount} for ${this.account} has been processed by Chase`
+      `Your payment of ${this.amount} for ${this.account} has been processed by Citibank`
     );
   }
   processRefund() {
     console.log(
-      `Your refund of ${this.amount} for ${this.account} has been processed by Chase`
+      `Your refund of ${this.amount} for ${this.account} has been processed by Citibank`
     );
   }
 }
 
-module.exports = Chasebank;
+module.exports = Citibank;

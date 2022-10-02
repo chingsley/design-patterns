@@ -1,4 +1,4 @@
-const Bank = require('.//Bank');
+const Bank = require('./Bank');
 
 class Chasebank extends Bank {
   processPayment() {

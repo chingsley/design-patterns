@@ -1,6 +1,6 @@
 const Payment = require('./Payment');
 const Chasebank = require('./Chasebank');
-const Citibank = require('./Citibanks');
+const Citibank = require('./Citibank');
 
 const payment = new Payment();
 

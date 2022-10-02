@@ -25,4 +25,4 @@ app.use((req, next) => {
   next();
 });
 
-console.log(app.add({ a: 5, b: 10 }));
+console.log(app.add({ a: 5, b: 10 })); // (2 * 5) + (3 * 10) = 40

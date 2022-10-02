@@ -5,6 +5,8 @@ class Middleware {
     this.req = {};
 
     const prototype = Object.getPrototypeOf(this.target);
+    console.log(prototype);
+    console.log(Object.getOwnPropertyNames(prototype));
     Object.getOwnPropertyNames(prototype).forEach((fn) => {
       if (fn !== 'constructor') return this.createFn(fn);
     });
@@ -21,6 +23,7 @@ class Middleware {
   }
   createFn(fn) {
     this[fn] = (args) => {
+      console.log("args: ", args);
       this.req = args;
       this.executeMiddleware();
       return this.target[fn].call(this, this.req);
