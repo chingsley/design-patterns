@@ -6,12 +6,12 @@ class SignupBuilder {
     this.email = email;
     this.age = age;
   }
-  setNick(name) {
-    this.nickname = name;
-    return this;
-  }
   setPhoto(photo) {
     this.photo = photo;
+    return this;
+  }
+  setNickname(name) {
+    this.nickname = name;
     return this;
   }
   setTopics(topics) {
