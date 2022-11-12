@@ -10,6 +10,7 @@ const obj = {
 
 const person = lock(obj, password);
 console.log(person);
+console.log(obj);
 person.favColor = 'Red';
 person.favFruit = 'Apple';
 console.log(person);

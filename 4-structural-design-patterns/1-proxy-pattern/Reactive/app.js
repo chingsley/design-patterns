@@ -14,6 +14,7 @@ const makeReactive = (obj, observer) => {
   });
 };
 
-const reactive = makeReactive(obj, (res) => console.log(res));
+const reactive = makeReactive(obj, (res) => console.log('res = ', res));
 reactive.color = 'green';
 reactive.age = 33;
+console.log(reactive);
