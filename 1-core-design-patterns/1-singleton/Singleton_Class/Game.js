@@ -2,7 +2,7 @@ const Scores = require("./Scoreboard");
 // const Scores = new ScoreBoard();
 
 class Game {
-  join(player) {
+  add(player) {
     Scores.join(player.getName());
   }
   scores() {

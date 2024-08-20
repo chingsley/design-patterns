@@ -5,8 +5,8 @@ const Pete = new Player("Pete");
 const Mike = new Player("Mike");
 const Poker = new Game();
 
-Poker.join(Pete);
-Poker.join(Mike);
+Poker.add(Pete);
+Poker.add(Mike);
 
 Pete.wins(20);
 
